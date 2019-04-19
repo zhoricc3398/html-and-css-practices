@@ -1,62 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>4.Forms</title>
 </head>
+
 <body>
     <form action="/" align="center">
         <P>
-            <label> Name
-                <input type="text" required>
+            <label> Full Name:<br>
+                <input type="text" required placeholder="Enter full name">
             </label>
         </P>
         <P>
-            <label> Email
-                <input type="email" required>
+            <label> Email address:<br>
+                <input type="email" required placeholder="Enter email">
             </label>
         </P>
-        <p>
-            <label> Password
-                <input type="password" required>
-            </label>
+        <p> Communication:
+            <p>
+                <label>
+                    <input type="checkbox"> E-mail
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox"> SMS
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox"> Phone
+                </label>
+            </p>
         </p>
-        <p>
-            <label> Number
-                <input type="number" required>
-            </label>
-        </p>
-        <p>
-            <label> Date
-                <input type="date" required>
-            </label>
-        </p>
-        <p>
-            <label> Time
-                <input type="time" required>
-            </label>
-        </p>
-        <p>
-            <label> Color
-                <input type="color"  required>
-            </label>
-        </p>
-        <p>
-            <label> Range
-                <input type="range" required>
-            </label>
-        </p>
-        <p>
-            <label> Description
-                <textarea cols="50" rows="10" required></textarea>
-            </label>
+        <p> User Group:
+            <p>
+                <label>
+                    <input type="radio" required> Sales Person
+                    <input type="radio" required> Customer
+                </label>
+                <footer>Please select user group</footer>
+            </p>
         </p>
         <p>
             <input type="submit" value="Submit">
-            <input type="reset" value="Clear">
+            <input type="reset" value="Cancel">
         </p>
     </form>
 </body>
+
 </html>
