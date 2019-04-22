@@ -1,26 +1,67 @@
-main {
+body {
     text-align: center;
+}
+
+main > h1 {
+    box-shadow: 0px 0px 30px 5px black;
+    margin-bottom: 50px;
+}
+
+section.sect {
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px 5px black;
+    border: 1px solid white;
+}
+
+section.sect img {
+    border: 1px solid white; 
+    height: 200px;
+    object-fit: cover;
     margin: 10px;
+    transition: .2s all;
+    border-radius: 3px; 
+    width: 20%;
+}
+section.sect img:hover {
+    transform: scale(1.1);
+    border: red solid 1px;
 }
 
-.img:hover {
-    border: 2px solid red;
-    zoom: 110%;
-}
-
-.img {
-    align-content: center
-}
-
-.h1 {
+section h1, section h1 a {
+    text-align: center;
     color: black;
 }
 
-.h1:hover {
-    color: teal
+section h1 a:hover {
+    color: teal;
 }
 
-.section {
-    margin-bottom: 5%;
-    align-self: 100%
+a.back {
+    float: left;
+    margin: 15px;
+    padding: 5px;
+    background: lightskyblue;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid white;
+}
+
+body > a {
+    float: left;
+    margin: 15px;
+    padding: 5px;
+    background: lightskyblue;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid white;
+}
+
+a + img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px black;
 }
