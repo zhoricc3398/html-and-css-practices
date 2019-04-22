@@ -1,0 +1,46 @@
+main {
+    text-align: center;
+}
+
+section > h1 {
+    color: grey;
+    text-transform: uppercase;
+}
+
+a > h3 {
+    color: black;
+    text-transform: none;
+}
+
+input {
+    color: teal
+}
+
+main section {
+    padding: 20px 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: white;
+    margin: 25px 0px;
+}
+main article {
+    box-shadow: 0 0 30px 5px black;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+main article p {
+    text-align: justify;
+}
+
+main > a {
+    float: left;
+    margin: 30px;
+    padding: 5px;
+    background: lightskyblue;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid white;
+}
