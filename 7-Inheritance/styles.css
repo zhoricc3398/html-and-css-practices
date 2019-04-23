@@ -50,3 +50,9 @@ div button.danger {
 .large {
     font-size: 2.5rem
 }
+
+div button.ghost {
+    color: black;
+    background: initial;
+    border: 1px lightslategrey solid;
+}
