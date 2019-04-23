@@ -1,60 +1,87 @@
-main {
-    margin: auto;
-}
-
-main > div {
-
-    text-align: left;
-    margin-right: 20px;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 1px solid darkgrey;
-}
-
-.div2 {
-    border-top: 1px solid darkgrey;
-}
-
-.text {
-    margin-left: 15px;
-    padding-left: 15px;
+* {
     font-family: Tahoma;
 }
 
-p + p {
-    font-size: 25px;
+section {
+    margin-right: 15px;
+    padding: 5px;
+    display: inline-block;
 }
 
-p + img {
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    float: left;
+section:last-child {
+    margin-right: 0;
 }
 
 ul {
-    list-style: none;
-    margin: 15px;
+    margin: 0;
     padding: 15px;
+    list-style: none;
 }
 
-div > span {
+li {
+    margin-bottom: 3px;
+}
+
+li > img {
+    margin-right: 5px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.tyler {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+div.top {
+    border: 1px solid lightgrey;
+    height: 140px;
+    width: 420px;
+}
+
+.ptop {
+    padding: 5px;
+}
+
+div.bottom {
+    border: 1px solid lightgrey;
+    height: 190px;
+    width: 420px;
+}
+
+.avatar {
+    display: flex;
     margin-left: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-
-.span {
+    margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 20px;
-    padding-left: 20px;
-    font-weight: normal;
-    font-family: 'Times New Roman';
 }
 
 .icon {
-    height: 30px;
-    widows: 30px;
-    float: bottom;
+    margin-left: 25px;
+    height: 20px;
+    width: 20px;
+}
+
+div > img:last-child {
+    margin-left: 195px;
+}
+
+p {
+    margin: 10px;
+    padding: 5px;
+}
+
+.par {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 20px;
 }
