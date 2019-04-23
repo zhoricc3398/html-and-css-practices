@@ -1,0 +1,36 @@
+div {
+    text-align: center;
+    margin: 100px auto;
+}
+
+div button {
+    padding: 10px 10px;
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div button.primary {
+    background: dodgerblue;
+    color: white;
+}
+
+div button.default {
+    color: lightslategrey;
+    background: white;
+    border: 1px grey solid;
+}
+
+div button.dashed {
+    color: lightslategrey;
+    background: white;
+    border: 1px grey dashed;
+}
+
+div button.danger {
+    color: red;
+    background: lightgrey;
+    border: 1px grey solid;
+}
