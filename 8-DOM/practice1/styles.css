@@ -1,0 +1,27 @@
+main {
+    margin: auto;
+    font-family: Tahoma;
+}
+
+main div {
+    text-align: left;
+    margin-right: 20px;
+    display: inline-block;
+    height: 300;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px grey ;
+}
+
+img {
+    margin: 2px;
+}
+
+.text{
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+div a{
+    color: darkgrey;
+}
