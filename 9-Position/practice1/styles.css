@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+div {
+    display: block;
+    text-align: center;
+    width: 1000px;
+    height: 800px;
+    position: relative;
+}
+
+img {
+    margin: 0;
+}
+
+div p {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    display: block;
+    z-index: 1;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.mask {
+    height: 800px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
