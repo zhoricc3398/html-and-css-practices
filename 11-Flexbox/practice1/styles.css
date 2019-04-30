@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.solid {
+    background: gray;
+}
+
+.cell-1, .cell-2, .cell-3, .cell-4, .cell-5 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.col-1 {
+    height: 100px;
+    flex-grow: 1;
+    margin-right: 30px;
+}
+
+.col-2 {
+    height: 230px;
+    flex-grow: 3;
+}
+
+.col-3 {
+    height: 230px;
+    flex-grow: 1;
+    margin-right: 30px;
+}
+
+.col-4 {
+    height: 230px;
+    flex-grow: 2;
+    margin-right: 30px;
+}
+
+.mr {
+    margin-right: 0;
+}
