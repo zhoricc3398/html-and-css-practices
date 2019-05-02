@@ -15,6 +15,9 @@ main {
     margin: 150px auto 0;
 }
 
+
+/* Section One */
+
 article.practice1 {
     width: 1170px;
     margin: auto;
@@ -128,7 +131,6 @@ article.practice1 .content .text2 p {
     line-height: 23px;
     margin-right: 12px;
     margin-left: 2px;
-
 }
 
 article.practice1 .content .text2 p::first-letter {
@@ -161,6 +163,9 @@ article.practice1 .content .text3 p {
     font-size: 14px;
     line-height: 23px;
 }
+
+
+/* Section Two */
 
 article.practice2 {
     width: 1173px;
@@ -219,6 +224,7 @@ article.practice2 header div.lists ul li {
     color: #A1B1BC;
     text-decoration: none;
 }
+
 article.practice2 header div.lists ul li::before {
     content: '';
     border-radius: 2px;
@@ -264,9 +270,11 @@ article.practice2 div.p2content div.code {
     line-height: 24px;
     margin-bottom: 23px;
 }
+
 article.practice2 div.p2content div.code ul {
     list-style: none;
 }
+
 article.practice2 div.p2content div.code ul li {
     margin-left: 15px;
 }
@@ -307,7 +315,7 @@ article.practice2 div.p2content div.tagwrap div.tags a {
 
 article.practice2 div.p2content div.tagwrap div.tags a:hover {
     text-decoration: underline;
-    color: #1ABC9C;   
+    color: #1ABC9C;
 }
 
 article.practice2 div.p2content div.profile {
@@ -347,4 +355,12 @@ article.practice2 div.p2content div.profile span {
 article.practice2 div.p2content div.profile p {
     font-style: italic;
     margin-top: 8px;
+}
+
+
+/* Section Three */
+
+article.practice3 {
+    width: 1173px;
+    margin: 0 auto;
 }
