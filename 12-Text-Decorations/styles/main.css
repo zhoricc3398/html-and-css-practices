@@ -361,6 +361,214 @@ article.practice2 div.p2content div.profile p {
 /* Section Three */
 
 article.practice3 {
-    width: 1173px;
-    margin: 0 auto;
+    width: 1170px;
+    margin: 150px auto;
+}
+
+article.practice3 header {
+    width: 100%;
+    height: 70px;
+}
+
+article.practice3 header h1 {
+    font-weight: normal;
+    color: #2C3E50;
+    float: left;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+article.practice3 header span {
+    float: right;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: -3px;
+}
+
+article.practice3 div.profile {
+    border: 1px solid #ECF0F1;
+    clear: both;
+    position: relative;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+article.practice3 div.profile:last-of-type {
+    margin-bottom: 74px;
+}
+
+article.practice3 div.child {
+    margin-bottom: 20px;
+}
+
+article.practice3 div.profile div.content {
+    margin-left: 138px;
+    margin-top: 29px;
+    margin-bottom: 24px;
+}
+
+article.practice3 div.profile div.content h1 {
+    margin-bottom: 1px;
+}
+
+article.practice3 div.profile div.content p {
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+article.practice3 div.child div.content {
+    margin-left: 157px;
+}
+
+article.practice3 div.child div.content h1 {
+    margin-bottom: 1px;
+}
+
+article.practice3 div.child div.content p {
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+article.practice3 div.after div.content {
+    margin-top: 29px;
+    margin-bottom: 27px;
+}
+
+article.practice3 div.profile div.profilepic {
+    margin-left: 31px;
+    margin-top: 29px;
+    height: 76px;
+    width: 76px;
+    float: left;
+    background: #A1B1BC;
+    border-radius: 3px;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 30%);
+}
+
+article.practice3 div.child div.profilepic {
+    margin-left: 50px;
+    margin-top: 29px;
+}
+
+article.practice3 div.after div.profilepic {
+    margin-left: 31px;
+    margin-top: 31px;
+}
+
+article.practice3 div.profile h1 {
+    color: #2C3E50;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+article.practice3 div.profile span {
+    color: #A1B1BC;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+article.practice3 div.profile p.description {
+    font-family: 'Roboto';
+    color: #A1B1BC;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+article.practice3 div.profile a.reply {
+    background: #2C3E50;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 3px;
+    padding: 0.5px 9.5px 0.5px 9.5px;
+    position: absolute;
+    right: 29.5px;
+    top: 30.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+article.practice3 div.profile a.reply:hover {
+    background: #A1B1BC;
+}
+
+article.practice3 div.child {
+    margin-left: 50px;
+    width: 1120px;
+}
+
+form {
+    width: 100%;
+}
+
+article.practice3 form div.inputarea {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+article.practice3 form div.inputarea input {
+    height: 50px;
+    width: 370px;
+    background: #F7F8F9;
+    border: solid 1px #ECF0F1;
+    margin-right: 26px;
+}
+
+article.practice3 form div.inputarea input:last-of-type {
+    margin-right: 0;
+}
+
+article.practice3 form div.inputarea input:hover {
+    background: #FFFFFF;
+}
+
+article.practice3 form div.inputarea input::placeholder {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    padding: 20px 20px;
+}
+
+article.practice3 form textarea {
+    background: #F7F8F9;
+    border: solid 1px #ECF0F1;
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 16px;
+}
+
+article.practice3 form textarea:hover {
+    background: #FFFFFF;
+}
+
+article.practice3 form > input {
+    background: #2C3E50;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 19px;
+    height: 50px;
+    width: 190px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+article.practice3 form > input:hover {
+    background: #A1B1BC;
+}
+
+article.practice3 h1.lastcomment {
+    font-weight: normal;
+    color: #2C3E50;
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 50px;
 }
