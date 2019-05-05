@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    width: 500px;
+    height: 600px;
+    margin: 50px auto 0;
+    grid-gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+section div {
+    background: teal;
+}
+
+.col1 {
+    grid-column: span 1;
+}
+.col3 {
+    grid-column: span 3;
+}
+.col4 {
+    grid-column: span 4;
+}
+
+.row1 {
+    grid-row: span 1;
+}
+.row2 {
+    grid-row: span 2;
+}
+.row3 {
+    grid-row: span 3;
+}
+.row4 {
+    grid-row: span 4;
+}
