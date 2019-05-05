@@ -6,12 +6,12 @@
 
 section {
     display: grid;
-    width: 500px;
-    height: 600px;
-    margin: 50px auto 0;
-    grid-gap: 15px;
+    width: 940px;
+    height: 100vh;
+    margin: auto;
+    grid-gap: 20px;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
 }
 
 section div {
@@ -26,12 +26,12 @@ section div {
     grid-column: span 2;
 }
 
-.col3 {
-    grid-column: span 3;
-}
-
 .col4 {
     grid-column: span 4;
+}
+
+.col6 {
+    grid-column: span 6;
 }
 
 .row1 {
@@ -40,12 +40,4 @@ section div {
 
 .row2 {
     grid-row: span 2;
-}
-
-.row3 {
-    grid-row: span 3;
-}
-
-.row4 {
-    grid-row: span 4;
 }
